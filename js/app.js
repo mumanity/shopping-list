@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	$('#add').on('click', function() {
 		var item = $('input[id=items]').val();
-		$('.list').append('<div>' +item+ '</div>');
+		$('.list').append('<div class="new">' +item+ '</div>');
 		$('#items').val('');
 		$('#items').focus();
 	});
@@ -25,13 +25,3 @@ $(document).ready(function() {
 	});
 
 });
-
-
-/*
-
-check off 
-uncheck
-remove items
-
-
-*/
