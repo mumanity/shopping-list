@@ -7,11 +7,13 @@ body {
 
 .paper {
 	background-color: white;
-	width: 90%;
+	width: 800px;
 	margin: auto;
 	opacity: 0.8;
 	overflow: scroll;
 	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 p {
@@ -23,19 +25,7 @@ p {
 }
 
 .update {
-	text-align: center;
-}
-
-#items {
-	width: 400px;
-	display: inline-block;
-	text-align: center;
-	margin: 0;
-}
-
-#items:focus {
-	border: 1.5px solid #454b34;
-	outline: none;
+	margin: auto;
 }
 
 #add {
@@ -45,6 +35,28 @@ p {
 	font-weight: bolder;
 	border-radius: 3%;
 	border: none;
+	width: 70px;
+	height: 25px;
+	padding-bottom: 1px;
+	border: none;
+}
+
+#add:focus {
+	border: 1.5px solid #454b34;
+	outline: none;
+}
+
+#items {
+	width: 200px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+
+}
+
+#items:focus {
+	border: 1.5px solid #454b34;
+	outline: none;
 }
 
 #add:hover {
@@ -62,15 +74,10 @@ p {
 	font-family: 'Poiret One', cursive;
 	font-size: 130%;
 	font-weight: bolder;
-	width: 90%;
+	left: 0;
+	right: 0;
 	margin: auto;
-	margin-right: 0;
-}
-
-ul {
-	position: relative;
-	float: left;
-	list-style: none;
+	padding-right: 50px;
 }
 
 ul p {
@@ -78,6 +85,20 @@ ul p {
 	font-family: 'Poiret One', cursive;
 	font-size: 120%;
 	font-weight: bolder;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	margin-top: -20px;
+}
+
+ul p {
+	margin-bottom: 5px;
+}
+
+li {
+	text-transform: capitalize;
 }
 
 li:hover {
