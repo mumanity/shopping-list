@@ -77,34 +77,48 @@ p {
 	left: 0;
 	right: 0;
 	margin: auto;
-	padding-right: 50px;
+	text-align: center;
 }
 
-ul p {
+.intro {
 	font-style: black;
 	font-family: 'Poiret One', cursive;
-	font-size: 120%;
+	font-size: 24px;
 	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p {
 	text-decoration: underline;
+	text-align: center;
 }
 
-ul {
-	list-style: none;
-	margin-top: -20px;
+#instructions {
+	font-family: 'Poiret One', cursive;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 2px;
 }
 
-ul p {
-	margin-bottom: 5px;
-}
-
-li {
+.list div {
 	text-transform: capitalize;
+	margin-left: 10px;
 }
 
-li:hover {
-	color: #454b34;
+.list div:hover {
+	color: #61612a;
 }
 
+.bought {
+	text-decoration: line-through;
+	color: #8f1f1f;
+	font-family: 'Poiret One', cursive;
+	font-size: 130%;
+	font-weight: bolder;
+}
 
 
 

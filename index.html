@@ -10,15 +10,16 @@
 </head>
 <body>
 	<div class="paper">
-		<p>Update your shopping list by adding items in the field below:</p>
+		<div class="intro">Update your shopping list by adding items in the field below:
+		</div>
 		<div class="update">
 			<input id="items" type="text" placeholder="enter your shopping items here"/>
 			<input type="submit" name="add" id="add" value="Add">
 		</div>
+		<p id="instructions">(Click an item once to mark it as bought. Double-clicking an item will remove it from your list.)</p>
+		<p>Shopping List</p>
 		<div class="list">
-			<ul>
-				<p>Groceries</p>
-			</ul>
+			<!-- list goes here -->
 		</div>
 	</div>
 	<script src="js/app.js"></script>
