@@ -7,23 +7,20 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="paper">
 		<p>Update your shopping list by adding items in the field below:</p>
 		<div class="update">
-			<input id="items" placeholder="enter your shopping items here"/>
-			<button id="add">Add</button>
+			<input id="items" type="text" placeholder="enter your shopping items here"/>
+			<input type="submit" name="add" id="add" value="Add">
 		</div>
 		<div class="list">
 			<ul>
 				<p>Groceries</p>
-					<li>apples</li>
-					<li>cheese</li>
-					<li>celery</li>
 			</ul>
 		</div>
 	</div>
+	<script src="js/app.js"></script>
 </body>
 </html>
