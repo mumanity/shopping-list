@@ -93,13 +93,14 @@ p {
 p {
 	text-decoration: underline;
 	text-align: center;
+	margin-bottom: 5px;
 }
 
 #instructions {
-	font-family: 'Poiret One', cursive;
-	font-size: 12px;
+	font-family: sans-serif;
+	font-size: 11px;
 	text-align: center;
-	font-weight: bold;
+	font-weight: lighter;
 	text-decoration: none;
 	margin-top: 2px;
 }
