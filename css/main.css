@@ -116,9 +116,16 @@ p {
 
 .bought {
 	text-decoration: line-through;
+	background-color: white;
 	color: #8f1f1f;
 	font-family: 'Poiret One', cursive;
 	font-weight: bolder;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 
